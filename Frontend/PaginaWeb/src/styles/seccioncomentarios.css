@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400.. 700&familia=EB+Garamond:ital,wght@0,400..800; 1.400..800&display=swap');
+
+/* S E C C I O N - C O M E N T A R I O S */
+
+.seccion-nuestros-comentarios {
+    background-color: #01060D;
+    border-top: 2px solid white;
+    height: 650px;
+}
+
+.titulo-y-guion {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+}
+
+.titulo-nuestros-comentarios {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-family: "Arenas movedizas", sans-serif;
+    text-align: center;
+    top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.linea-abajo {
+    position: relative;
+    width: 150px;
+    border-bottom: 4px solid rgb(50, 180, 240);
+    margin: auto;
+    top: 35px;
+}
+
+.contenedor-nuestros-comentarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 90px;
+    border: transparent;
+    background-color: white;
+    width: 500px;
+    min-height: 440px;
+    margin: auto;
+    border-radius: 10%;
+    user-select: none;
+    -webkit-box-shadow: -8px 0px 14px -1px rgba(50,180,240,0.95);
+    -moz-box-shadow: -8px 0px 14px -1px rgba(50,180,240,0.95);
+    box-shadow: -8px 0px 14px -1px rgba(50,180,240,0.95);
+}
+
+.foto-usuario {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+}
+
+.estilos-foto-usuario {
+    width: 180px;
+    height: 180px;
+    border: 3px solid rgb(50, 180, 240);
+    border-radius: 50%;
+}
+
+.nombre-usuario {
+    position: relative;
+    color: black;
+    font-size: 25px;
+    font-family: "Abhaya Libre", serif;
+    letter-spacing: 5px;
+    top: 10px;
+}
+
+.raya-nombre {
+    position: relative;
+    border-bottom: 2px solid black;
+    width: 280px;
+    top: 10px;
+}
+
+.marca-carro-usuario {
+    position: relative;
+    color: #32b4f0;
+    font-size: 22px;
+    font-family: "Abhaya Libre", serif;
+    top: 10px;
+    font-style: italic;
+}
+
+.eb-garamond-descripcion-usuario {
+    font-family: "EB Garamond", serif;
+    position: relative;
+    color: black;
+    font-size: 20px;
+    width: 300px;
+    bottom: 10px;
+    user-select: none;
+}
+
+.contenedor-iconos-derecha-izquierda {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    bottom: -10px;
+}
+
+.icono-izquierda-derecha {
+    color:rgb(50, 180, 240);
+    font-size: 25px;
+}
+
+.icono-izquierda-derecha:hover {
+    color: rgb(235, 35, 135);
+    cursor: pointer;
+}
+
+.estilos-comillas-der {
+    position: relative;
+    color: rgb(50, 180, 240);
+    font-size: 40px;
+    left: 150px;
+}
+
+.estilos-comillas-izq {
+    position: relative;
+    color: rgb(50, 180, 240);
+    font-size: 40px;
+    right: 180px;
+}

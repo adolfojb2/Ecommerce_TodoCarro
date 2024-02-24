@@ -1,0 +1,183 @@
+
+/* H E A D E R */
+
+* {
+    font-family: "Abhaya Libre", serif;
+}
+
+.abhaya-libre-extrabold {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.contenedor-header-1 {
+    background-color: #01060D;
+    display: flex;
+}
+
+.botones-y-carrito {
+    display: flex;
+    position: relative;
+    /*border: 5px solid yellowgreen;*/
+    justify-content: end;
+    padding: 15px;
+    left: 170px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 30px;
+}
+
+.estilos-logo { /* Logo */
+    position: relative;
+    width: 75px;
+    height: 60px;
+    left: 20px;
+}
+
+.estilo-icono-carrito { /* Carrito */
+    position: relative;
+    display: flex;
+    color: #3ed473;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: 15px;
+    animation: movimiento 2s infinite;
+}
+
+@keyframes movimiento { /* A N I M A C I O N - C A R R I T O */
+    10% {
+        transform: scale(1.10) rotate(10deg);
+    }
+    20% {
+        transform: scale(1.10) rotate(-10deg);
+    }
+    30% {
+        transform: scale(1.10) rotate(10deg);
+    }
+    40% {
+        transform: none;
+    }
+}
+
+.btn {
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+.estilos-boton-login { /* Boton Login y animaciones */
+    display: flex;
+    position: relative;
+    background: #F34671;
+    cursor: pointer;
+    /*border: 5px solid yellow;*/
+    font-family: "Abhaya Libre", serif;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    height: 30px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-left: 60px;
+    transition: all 0.3s ease;
+    top: 15px;
+    left: 20px;
+}
+
+.estilos-boton-login:hover {
+    background-position: 100%;
+    background: #FF8080;
+}
+
+.logo-usuario {
+    padding: 5px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.contenedor-header-2 {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+}
+
+.estilos-boton-links { /* Links */
+    position: relative;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,0) 0%);
+    text-decoration-line: none;
+    font-size: 20px;
+    font-family: "Abhaya Libre", serif;
+    cursor: pointer;
+    margin-right: 100px;
+    color: white;
+    border: 0;
+    left: 30px;
+    border-radius: 0;
+    padding: 2px;
+}
+
+.estilos-boton-links:hover {
+    text-decoration: underline;
+}
+
+.lbl-switch { /* Boton modo claro */
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background: #aaa;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+    right: 100px;
+    left: 38px;
+    top: 18px;
+}
+
+#btn-switch:checked~ .lbl-switch {
+    background: #FF8080;
+}
+
+.lbl-switch:after {
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 100px;
+    top: 4px;
+    left: 5px;
+    transition: 0.25s;
+}
+
+#btn-switch {
+    display: none;
+}
+
+#btn-switch:checked~ .lbl-switch:after {
+    left: 25px;
+}
+
+.icono-sol {
+    position: relative;
+    color: white;
+    font-size: 25px;
+    left: 55px;
+    top: 15px;
+}
+
+.icono-luna {
+    position: relative;
+    color: white;
+    font-size: 25px;
+    left: 120px;
+    top: 15px;
+}

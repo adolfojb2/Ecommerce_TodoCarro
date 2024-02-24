@@ -1,0 +1,61 @@
+
+/*  S E C C I O N : M A R C A S  */
+
+.seccion-nuestras-marcas {
+    background-color: #01060D;
+    height: 500px;
+    border-top: 2px solid white;
+}
+
+.titulo {
+    position: relative;
+    font-family: "Abhaya Libre", serif;
+    color: white;
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    top: 40px;
+}
+
+.contenedor-fotos {
+    position: relative;
+    top: 80px;
+}
+
+.contenedor-interior-fotos-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-interior-fotos-2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+}
+
+.contenedor-contiene-foto {
+    border-radius: 50px;
+    border: 1px solid #F34671;
+    background-color: white;
+    margin: 2px 40px 0px 40px;
+}
+
+.contenedor-contiene-foto a img {
+    padding: 18px;
+}
+
+.contenedor-contiene-foto:hover {
+    -webkit-box-shadow: -8px -5px 12px 2px rgba(187,195,164,0.76);
+    -moz-box-shadow: -8px -5px 12px 2px rgba(187,195,164,0.76);
+    box-shadow: -8px -5px 12px 2px rgba(187,195,164,0.76);
+}
+
+.logo-marca {
+    width: 190px;
+    height: 150px;
+}

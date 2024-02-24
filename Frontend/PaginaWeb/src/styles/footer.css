@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400; 700&display=swap');
+
+/*   F O O T E R  */
+
+.seccion-footer {
+    background-color: #303030;
+    border-top: 2px solid white;
+    border-bottom: 4px solid white;
+    height: 510px;
+}
+
+.contenedor-foto-logo-footer {
+    position: relative;
+    width: 140px;
+    height: 120px;
+    left: 100px;
+    top: 50px;
+}
+
+.logo-footer {
+    width: 140px;
+    height: 120px;
+    background: rgba(1, 6, 13, 0.842);
+}
+
+.contenedor-links-footer {
+    position: relative;
+    display: flex;
+    width: 600px;
+    left: 400px;
+    bottom: 50px;
+    justify-content: space-between;
+}
+
+.link-footer {
+    font-size: 25px;
+    color: white;
+    font-family: "Aref Ruqaa", serif;
+}
+
+.contenedor-redes-sociales {
+    position: relative;
+    display: flex;
+    width: 700px;
+    left: 300px;
+    bottom: 10px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.estilos-logo-redes-sociales {
+    color: green;
+    font-size: 35px;
+}
+
+.estilos-logo-redes-sociales-2 {
+    color: blue;
+    font-size: 35px;
+}
+
+.estilos-logo-redes-sociales-3 {
+    color: blueviolet;
+    font-size: 35px;
+}
+
+.estilos-logo-redes-sociales-4 {
+    color: purple;
+    font-size: 35px;
+}
+
+.raya-debajo-footer {
+    position: relative;
+    display: flex;
+    margin: auto;
+    border-bottom: 2px solid white;
+    width: 500px;
+    bottom: 5px;
+    left: 20px;
+    margin-bottom: 10px;
+}
+
+.titulo-tecnologias-usadas {
+    text-align: center;
+    color: white;
+    font-family: "Aref Ruqaa", serif;
+    font-style: italic;
+}
+
+.descripcion-tecnologias-usadas {
+    text-align: center;
+    color: white;
+    font-family: "Aref Ruqaa", serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.contenedor-dos-iconos {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.estilos-pc {
+    color: rgb(248, 190, 0);
+    font-size: 30px;
+}
+
+.estilos-movil {
+    color: rgb(0, 87, 248);
+    font-size: 30px;
+}
+
+.iconos-tecnologias {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 60px;
+}
+
+.estilo-icono-tecnologia-html {
+    color: rgb(255, 196, 0);
+    font-size: 40px;
+}
+
+.estilo-icono-tecnologia-css {
+    color: blue;
+    font-size: 40px;
+}
+
+.estilo-icono-tecnologia-javascript {
+    color: yellow;
+    font-size: 40px;
+}
+
+.estilo-icono-tecnologia-react {
+    color: purple;
+    font-size: 40px;
+}
+
+.estilo-icono-tecnologia-tailwind {
+    color: rgb(0, 162, 255);
+    font-size: 40px;
+}
+
+.estilo-icono-tecnologia-python {
+    color: rgb(255, 187, 0);
+    font-size: 40px;
+}
+
+.estilo-icono-tecnologia-django {
+    color: rgb(255, 0, 128);
+    font-size: 40px;
+}
+
+.estilo-icono-tecnologia-mysql {
+    color: rgb(0, 119, 255);
+    font-size: 40px;
+}
+
+.estilo-icono-tecnologia-aws {
+    color: orange;
+    font-size: 40px;
+}
+
+.estilo-icono-tecnologia-docker {
+    color: rgb(0, 140, 255);
+    font-size: 40px;
+}
+
+.derechos-reservados {
+    text-align: center;
+    color: white;
+    font-family: "Aref Ruqaa", serif;
+    font-size: 20px;
+    margin-top: 20px;
+}

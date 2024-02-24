@@ -1,0 +1,118 @@
+
+/*  S E C C I O N - P R O D U C T O S  */
+
+.seccion-productos {
+    background-color: #01060D;
+    border-top: 2px solid white;
+    height: 2650px;
+}
+
+.titulo-productos {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Abhaya Libre", serif;
+    top: 50px;
+}
+
+.contenedor-principal-productos {
+    margin-top: 70px;
+}
+
+.contenedor-interior-productos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+.contenedor-foto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #1F2544;
+}
+
+.estilo-foto-producto {
+    width: 250px;
+    height: 250px;
+}
+
+.contenedor-informacion {
+    position: relative;
+    display: flex;
+    margin-top: -50px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    bottom: 2px;
+    border-top: 1px solid white;
+}
+
+.eye {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.cart {
+    color: #3ed473;
+    font-size: 30px;
+    animation: movimiento 2s infinite;
+    cursor: pointer;
+}
+
+.simbolo-precio-y-precio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.simbolo-precio {
+    color: rgb(119, 119, 241);
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.precio {
+    font-size: 20px;
+    font-family: "Abhaya Libre", serif;
+    color: white;
+    font-weight: bold;
+}
+
+.boton-vermas {
+    position: relative;
+    text-align: center;
+    position: relative;
+    background: #F34671;
+    cursor: pointer;
+    font-family: "Abhaya Libre", serif;
+    border: transparent;
+    border-radius: 10px;
+    color: white;
+    height: 35px;
+    width: 200px;
+    font-size: 20px;
+    left: 560px;
+    transition: all 0.3s ease;
+    top: 15px;
+}
+
+.boton-vermas:hover {
+    background-position: 100%;
+    background: #FF8080;
+}
+
+.nombre-repuesto {
+    position: relative;
+    text-align: center;
+    color: #FFBE98;
+    bottom: 25px;
+    font-weight: bold;
+}
