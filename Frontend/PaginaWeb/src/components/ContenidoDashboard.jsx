@@ -9,7 +9,7 @@ import { FaArrowLeft } from "react-icons/fa";
 import '../styles/contenidodashboard.css';
 import { Link } from 'react-router-dom';
 
-const ContenidoDashboard = () => {
+function ContenidoDashboard() {
   return (
     <main className='seccion-panel-lateral-tarjetas-seguimiento-de-compras'>
       <div className='todo-el-contenido-de-la-dashboard'>
@@ -27,19 +27,19 @@ const ContenidoDashboard = () => {
             <div className='panel-lateral-interior-titulos'>
               <div className='contenedor-panel-lateral-interior-y-icono'>
                 <IoHomeSharp className='icono-parte-lateral-interior' />
-                <h1 className='titulo-panel-lateral-interior'>Dashboard</h1>
+                <h1 className='titulo-panel-lateral-interior'><Link to='/dashboard' className='titulo-panel-lateral-interior'>Dashboard</Link></h1>
               </div>
               <div className='contenedor-panel-lateral-interior-y-icono'>
                 <FaFileInvoiceDollar className='icono-parte-lateral-interior' />
-                <h1 className='titulo-panel-lateral-interior'><Link to='/generar_facturas'>Generar facturas</Link></h1>
+                <h1 className='titulo-panel-lateral-interior'><Link to='/generar_facturas' className='titulo-panel-lateral-interior'>Generar facturas</Link></h1>
               </div>
               <div className='contenedor-panel-lateral-interior-y-icono'>
                 <FaBoxesPacking className='icono-parte-lateral-interior' />
-                <h1 className='titulo-panel-lateral-interior'>Añadir productos</h1>
+                <h1 className='titulo-panel-lateral-interior'><Link to='/añadir_productos' className='titulo-panel-lateral-interior'>Añadir Productos</Link></h1>
               </div>
               <div className='contenedor-panel-lateral-interior-y-icono'>
                 <IoMdAnalytics className='icono-parte-lateral-interior' />
-                <h1 className='titulo-panel-lateral-interior'>Analítica y datos</h1>
+                <h1 className='titulo-panel-lateral-interior'><Link to='/analytics_ecommerce' className='titulo-panel-lateral-interior'>Analitica y datos</Link></h1>
               </div>
             </div>
             <div className='contenedor-parte-inferior-panel-lateral'>

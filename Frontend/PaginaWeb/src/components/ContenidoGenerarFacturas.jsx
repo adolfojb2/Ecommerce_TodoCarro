@@ -27,19 +27,19 @@ function ContenidoGenerarFacturas() {
             <div className='panel-lateral-interior-titulos'>
               <div className='contenedor-panel-lateral-interior-y-icono'>
                 <IoHomeSharp className='icono-parte-lateral-interior' />
-                <h1 className='titulo-panel-lateral-interior'>Dashboard</h1>
+                <h1 className='titulo-panel-lateral-interior'><Link to='/dashboard' className='titulo-panel-lateral-interior'>Dashboard</Link></h1>
               </div>
               <div className='contenedor-panel-lateral-interior-y-icono'>
                 <FaFileInvoiceDollar className='icono-parte-lateral-interior' />
-                <h1 className='titulo-panel-lateral-interior'><Link to='/generar_facturas'>Generar facturas</Link></h1>
+                <h1 className='titulo-panel-lateral-interior'><Link to='/generar_facturas' className='titulo-panel-lateral-interior'>Generar facturas</Link></h1>
               </div>
               <div className='contenedor-panel-lateral-interior-y-icono'>
                 <FaBoxesPacking className='icono-parte-lateral-interior' />
-                <h1 className='titulo-panel-lateral-interior'>Añadir productos</h1>
+                <h1 className='titulo-panel-lateral-interior'><Link to='/añadir_productos' className='titulo-panel-lateral-interior'>Añadir Productos</Link></h1>
               </div>
               <div className='contenedor-panel-lateral-interior-y-icono'>
                 <IoMdAnalytics className='icono-parte-lateral-interior' />
-                <h1 className='titulo-panel-lateral-interior'>Analítica y datos</h1>
+                <h1 className='titulo-panel-lateral-interior'><Link to='/analytics_ecommerce' className='titulo-panel-lateral-interior'>Analitica y datos</Link></h1>
               </div>
             </div>
             <div className='contenedor-parte-inferior-panel-lateral'>
@@ -90,24 +90,45 @@ function ContenidoGenerarFacturas() {
               </div>
             </div>
           </div>
-          {/* SEGUIMIENTO DE VENTAS DE LOS USUARIOS */}
+          {/* GENERAR FACTURAS */}
           <section className='seccion-generar-facturas-pdf'>
             <div className='contenedor-todo-contenido-generar-pdf'>
               <div className='titulo-generar-facturas-pdf'>
-                Facturas de ventas emitidas.
+                Facturas de ventas emitidas por Ecommerce
               </div>
               <div className='contenedor-columnas-datos-facturas'>
                 <h3 className='titulo-datos-facturas'>N°-Factura</h3>
-                <h3 className='titulo-datos-facturas'>Cliente</h3>  
+                <h3 className='titulo-datos-facturas'>Cliente</h3> 
                 <h3 className='titulo-datos-facturas'>Fecha</h3>  
                 <h3 className='titulo-datos-facturas'>Valor de factura</h3>  
               </div>
               <div className='contenedor-descripcion-columnas-datos-facturas'>
-                <button className='boton-factura'><FaFilePdf />7/2020</button>
-                <h3 className='nombre-cliente-factura'>Adolfo Betin</h3>
+                <button className='boton-factura'><FaFilePdf className='estilos-icono-del-pdf'/>7/2020</button>
+                <div className='contenedor-cliente-y-formapago'>
+                  <h3 className='titulo-datos-facturas'>Adolfo Betin</h3>
+                  <h3 className='descripcion-datos-facturas'>F.Pago: Transferencia</h3> 
+                </div>
                 <h3 className='fecha-cliente-factura'>3/1/2020</h3>
                 <h3 className='dato-valor-factura'>150.000 <FaDollarSign className='estilos-signo-peso-dashboard-2' /></h3>
-              </div>  
+              </div>
+              <div className='contenedor-descripcion-columnas-datos-facturas'>
+                <button className='boton-factura'><FaFilePdf className='estilos-icono-del-pdf'/>2/2023</button>
+                <div className='contenedor-cliente-y-formapago'>
+                  <h3 className='titulo-datos-facturas'>Jonathan Fernandez</h3>
+                  <h3 className='descripcion-datos-facturas'>F.Pago: Efecty</h3> 
+                </div>
+                <h3 className='fecha-cliente-factura'>15/2/2024</h3>
+                <h3 className='dato-valor-factura'>320.000 <FaDollarSign className='estilos-signo-peso-dashboard-2' /></h3>
+              </div> 
+              <div className='contenedor-descripcion-columnas-datos-facturas'>
+                <button className='boton-factura'><FaFilePdf className='estilos-icono-del-pdf'/>12/2023</button>
+                <div className='contenedor-cliente-y-formapago'>
+                  <h3 className='titulo-datos-facturas'>Marina Torres </h3>
+                  <h3 className='descripcion-datos-facturas'>F.Pago: Transferencia</h3> 
+                </div>
+                <h3 className='fecha-cliente-factura'>29/2/2022</h3>
+                <h3 className='dato-valor-factura'>600.000 <FaDollarSign className='estilos-signo-peso-dashboard-2' /></h3>
+              </div>   
             </div> 
           </section>
         </section>

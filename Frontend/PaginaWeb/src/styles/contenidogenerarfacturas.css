@@ -219,11 +219,77 @@
 /*  G E N E R A R - F A C T U R A S  */
 
 .seccion-generar-facturas-pdf {
-    border: 2px solid yellow;
     margin-top: 30px;
+    background-color: white;
 }
 
 .contenedor-todo-contenido-generar-pdf {
-    border: 2px solid blue;
     margin-top: 30px;
+    border-top: 2px solid gray;
+}
+
+.titulo-generar-facturas-pdf {
+    color: black;
+    font-family: "Abhaya Libre", serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 0px 20px 30px;
+    border-bottom: 2px solid gray;
+    text-align: center;
+}
+
+.contenedor-columnas-datos-facturas {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    padding: 20px 0px 20px 30px;
+    border-bottom: 2px solid gray;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.contenedor-descripcion-columnas-datos-facturas {
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 50px 20px 50px;
+    border-bottom: 2px solid gray;
+}
+
+.estilos-signo-peso-dashboard-2 {
+    color: gray;
+}
+
+.estilos-icono-del-pdf {
+    color: white;
+    margin-right: 10px;
+}
+
+.boton-factura {
+    background-color: gray;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Abhaya Libre", serif;
+    cursor: pointer;
+}
+
+.descripcion-datos-facturas {
+    color: gray;
+    font-family: "Abhaya Libre", serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.fecha-cliente-factura {
+    color: gray;
+    font-family: "Abhaya Libre", serif;
+}
+
+.dato-valor-factura {
+    color: gray;
+    font-family: "Abhaya Libre", serif;
 }

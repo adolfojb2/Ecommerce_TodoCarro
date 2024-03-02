@@ -226,22 +226,16 @@
 
 .contenido-seguimiento-compras {
     position: relative;
-    top: 20px;
+    margin-top: 20px;
 }
 
 .contenedor-seguimiento-compras-usuarios {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    gap: 40px;
+    justify-content:space-between;
+    padding: 10px 50px 10px 50px;
     border: 1px solid gray;
-    margin-top: 25px;
-    margin-right: 100px;
-    margin-left: 100px;
-    padding: 5px 10px;
     border-radius: 10px;
+    margin: 22px 70px 22px 70px;
 }
 
 .valor-compra-y-icono-peso .valor-compra-usuario-compra {
@@ -257,7 +251,7 @@
     font-family: "Abhaya Libre", serif;
     font-size: 25px;
     margin-left: 100px;
-    top: 0px;
+    top: 10px;
 }
 
 .estilos-logos-usuario-compra {
