@@ -1,0 +1,311 @@
+
+/*  P A N E L - L A T E R A L  */
+
+.todo-el-contenido-de-la-dashboard {
+    display: flex;
+}
+
+.seccion-panel-lateral-tarjetas-seguimiento-de-compras {
+    height: 770px;
+    /*background-color: #01060D;*/
+}
+
+.todo-contenido-panel-lateral {
+    width: 20%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid white;
+}
+
+.primera-seccion-panel-lateral {
+    width: 100%;
+    height: 170px;
+    background-color: #08083e;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.contenedor-logo-panel-lateral {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #08083e;
+    width: 100%;
+}
+
+.estilo-logo-panel-lateral {
+    width: 90px;
+    height: 70px;
+}
+
+.titulo-panel-lateral-logo {
+    font-family: "Abhaya Libre", serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.contenedor-parte-2-dashboard {
+    background-color: #01060D;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-lateral-interior-titulos {
+    margin-bottom: 100px;
+}
+
+.raya-panel-lateral {
+    margin-top: 0px;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+.contenedor-panel-lateral-interior-y-icono {
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.icono-parte-lateral-interior {
+    color: orange;
+}
+
+.titulo-panel-lateral-interior {
+    color: white;
+    font-family: "Abhaya Libre", serif;
+    font-size: 20px;
+}
+
+.contenedor-parte-inferior-panel-lateral {
+    border: transparent;
+    background: rgb(8, 8, 62);
+    margin-top: 10px;
+    width: 85%;
+    text-align: center;
+    padding: 10px;
+}
+
+.parrafo-parte-inferior-panel-lateral {
+    color: white;
+    font-family: "Abhaya Libre", serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.parrafo-parte-inferior-panel-lateral-2 {
+    margin-top: 20px;
+    color: white;
+    font-family: "Abhaya Libre", serif;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.icono-flecha-verde-panel-interior-dashboard {
+    color: green;
+}
+
+/*  T A R J E T A S - I N G R E S O S  */
+
+.todo-contenido-tarjetas-ingreso-dashboard {
+    width: 80%;
+    background-color: rgba(238, 238, 238, 0.923);
+}
+
+.contenedor-interno-contenido-tarjetas-ingreso-dashboard {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-para-dashboard-inicio {
+    color: black;
+    font-family: "Abhaya Libre", serif;
+    font-size: 25px;
+    margin-bottom: 5px;
+    padding-left: 50px;
+}
+
+.descripcion-para-dashboard {
+    color: gray;
+    font-family: "Abhaya Libre", serif;
+    font-size: 15px;
+    padding-left: 50px;
+}
+
+.contenedor-tres-tarjetas-ingreso-dashboard {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.contenedor-tarjeta-general-ingreso-dashboard {
+    background-color: rgba(24, 74, 191, 0.719);
+    border: transparent;
+}
+
+.contenedor-tarjeta-general-ingreso-dashboard-2 {
+    background-color: rgba(255, 0, 251, 0.606);
+    border: transparent;
+}
+
+.contenedor-tarjeta-general-ingreso-dashboard-3 {
+    background-color: rgb(25, 160, 25);
+    border: transparent;
+}
+
+.contenedor-precio-ingreso-dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.titulo-ingresos-tarjeta {
+    color: rgb(255, 255, 255);
+    font-family: "Abhaya Libre", serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.estilos-signo-peso-dashboard-1 {
+    font-size: 60px;
+    color: rgb(225, 204, 204);
+}
+
+.estilos-signo-peso-dashboard-2 {
+    color: white;
+    font-size: 15px;
+}
+
+.valor-ingreso-dashboard {
+    font-size: 17px;
+    color: white;
+}
+
+.descripcion-año-dashboard {
+    color: rgb(255, 255, 255);
+    font-family: "Abhaya Libre", serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.contenedor-olas-tarjeta {
+    width: 100%;
+}
+
+.estilos-onda-tarjeta-ingresos {
+    width: 100%;
+    height: 100%;
+}
+
+/*  S E G U I M I E N T O - D E - V E N T A S  */
+
+.seccion-seguimiento-compras {
+    background-color: #01060D;
+    height: 465px;
+    margin-top: 25px;
+}
+
+.contenido-seguimiento-compras {
+    position: relative;
+    top: 20px;
+}
+
+.contenedor-seguimiento-compras-usuarios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 40px;
+    border: 1px solid gray;
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.valor-compra-y-icono-peso .valor-compra-usuario-compra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.titulo-seguimiento-ventas {
+    position: relative;
+    color: white;
+    font-family: "Abhaya Libre", serif;
+    font-size: 25px;
+    margin-left: 100px;
+    top: 0px;
+}
+
+.estilos-logos-usuario-compra {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.nombre-usuario-compra {
+    color: rgb(221, 221, 221);
+    font-family: "Abhaya Libre", serif;
+    font-size: 20px;
+}
+
+.fecha-usuario-compra {
+    color: rgb(221, 221, 221);
+    font-family: "Abhaya Libre", serif;
+    font-size: 20px;
+}
+
+.cantidad-productos-usuario-compra {
+    color: white;
+    font-family: "Abhaya Libre", serif;
+    font-size: 20px;
+}
+
+.estado-confirmado-rechazado {
+    color: gray;
+    font-family: "Abhaya Libre", serif;
+    font-size: 20px;
+}
+
+.valor-compra-usuario-compra {
+    color: white;
+    font-family: "Abhaya Libre", serif;
+    font-size: 20px;
+}
+
+.estilos-valor-compra {
+    color: green;
+}
+
+.div-iconos-ingresos-dashboard {
+    color: rgb(53, 53, 211);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}

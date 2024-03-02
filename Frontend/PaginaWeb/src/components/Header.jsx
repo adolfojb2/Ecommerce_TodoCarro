@@ -25,7 +25,7 @@ function Header() {
               <input type='checkbox' id='btn-switch' className='input-switch'/>
               <label for='btn-switch' className='lbl-switch'></label>
             </div>
-            <Link to='/login-sign' className='estilos-boton-login'><FaUserCircle className='logo-usuario'/>Login / Sign up</Link>
+            <Link to='/login' className='estilos-boton-login'><FaUserCircle className='logo-usuario'/>Login / Sign up</Link>
             <a href='#'><IoCartSharp className='estilo-icono-carrito'/></a>
             <Idiomas />
           </div>
@@ -33,10 +33,10 @@ function Header() {
         {/* Contenedor Header 2 */}
         <div className='contenedor-header-2'>
           <nav className='contenedor-links'>
-            <button className='estilos-boton-links'>Home</button>
-            <button className='estilos-boton-links'>Blog de repuestos</button>
-            <button className='estilos-boton-links'>Atencion al cliente</button>
-            <button className='estilos-boton-links'>Dashboard</button>
+            <button className='estilos-boton-links'><Link to='/' className='estilos-boton-links'>Home</Link></button>
+            <button className='estilos-boton-links'><Link to='/blog' className='estilos-boton-links'>Blog de repuestos</Link></button>
+            <button className='estilos-boton-links'><Link to='/atencion_cliente' className='estilos-boton-links'>Atención al cliente</Link></button>
+            <button className='estilos-boton-links'><Link to='/dashboard' className='estilos-boton-links'>Dashboard</Link></button>
           </nav>
         </div>
         <Outlet />

@@ -1,0 +1,82 @@
+
+/*  C O N T E N I D O - B L O G   */
+
+.seccion-principal-blog {
+    background-color: #01060D;
+}
+
+.titulo-blog-principal {
+    position: relative;
+    color: #e4a125;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: "Abhaya Libre", serif;
+    top: 60px;
+    text-align: center;
+}
+
+.contenedor-articulo-blog {
+    margin-top: 90px;
+}
+
+.contenedor-imagen-titulo-y-descripcion-blog {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.contenedor-titulo-descripcion {
+    margin-left: 120px;
+}
+
+.contenedor-imagen {
+    width: 300px;
+    height: 300px;
+}
+
+.estilos-imagen-articulo-blog {
+    width: 400px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.titulo-articulo {
+    color: rgb(247, 5, 234);
+    font-size: 25px;
+    font-family: "Abhaya Libre", serif;
+    cursor: pointer;
+}
+
+.descripcion-fecha-articulo {
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+    font-family: "Abhaya Libre", serif;
+    margin-top: 15px;
+}
+
+.descripcion-articulo-blog {
+    font-family: "Abhaya Libre", serif;
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.estilo-leer-mas {
+    color: rgb(62, 62, 151);
+    font-size: 18px;
+    font-family: "Abhaya Libre", serif;
+    cursor: pointer;
+}
+
+.estilo-leer-mas:hover {
+    color: rgb(209, 71, 71);
+}
+
+.raya-abajo-blog {
+    border-bottom: 2px solid gray;
+    width: 1100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}

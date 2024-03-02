@@ -36,7 +36,6 @@ function Footer() {
       </div>
       <div className='raya-debajo-footer'></div>
       <h1 className='titulo-tecnologias-usadas'>Tecnologías usadas: </h1>
-      <p className='descripcion-tecnologias-usadas'>ReactJS - Django - MySQL - AWS</p>
       <div className='contenedor-dos-iconos'>
         <GiLaptop className='estilos-pc'/>
         <ImMobile2 className='estilos-movil'/>

@@ -1,0 +1,92 @@
+
+/*  A T E N C I O N - C L I E N T E */
+
+.seccion-atencion-cliente {
+    /**background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
+    background-color: #01060D;
+}
+
+.contenedor-atencion-cliente {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 600px;
+}
+
+.titulo-seccion-atencion-cliente {
+    position: relative;
+    color: rgb(109, 163, 214);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Abhaya Libre", serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.contenedor-formulario {
+    background: white;
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+}
+
+.cuadros-formulario:hover {
+    border: 1px solid rgb(109, 163, 214);
+}
+
+.cuadros-formulario {
+    background: #EEEDEB;
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.caja-input-atencion-cliente {
+    border-radius: 0px;
+    color: rgba(0, 0, 0, 0.75);
+    background: #EEEDEB;
+}
+
+.caja-input-atencion-cliente:hover {
+    border: none;
+}
+
+.caja-input-atencion-cliente::placeholder {
+    color: gray;
+}
+
+.imagen-formulario-atencioncliente {
+    width: 20px;
+    height: 20px;
+}
+
+.contenedor-boton-atencion-cliente {
+    display: flex;
+    justify-content: center;
+}
+
+.boton-enviar-peticion {
+    background: rgb(109, 163, 214);
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Abhaya Libre", serif;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 35px;
+    margin: 10px 10px 30px;
+}
+
+.boton-enviar-peticion:hover {
+    background: rgb(255, 0, 255);
+}
+
+

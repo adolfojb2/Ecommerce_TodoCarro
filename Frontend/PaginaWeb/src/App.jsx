@@ -1,31 +1,25 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import LoginSignup from './pages/LoginSignup';
-import Slider from './components/Slider';
-import TarjetasMarcasVehiculos from './components/TarjetasMarcasVehiculos';
-import SeccionProductos from './components/SeccionProductos';
-import FormasEnvio from './components/FormasEnvio';
-import PagaDesdeCasa from './components/PagaDesdeCasa';
-import SeccionComentarios from './components/SeccionComentarios';
-import Footer from './components/Footer';
+import Blog from './pages/Blog';
+import Home from './pages/Home';
+import AtencionCliente from './pages/AtencionCliente';
+import InicioRegistro from './pages/InicioRegistro';
+import Dashboard from './pages/Dashboard';
+import GenerarFacturas from './pages/GenerarFacturas';
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Header />}></Route>
-        <Route path='/login-sign' element={<LoginSignup />}></Route>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/login' element={<InicioRegistro />}></Route>
+        <Route path='/blog' element={<Blog />}></Route>
+        <Route path='/atencion_cliente' element={<AtencionCliente />}></Route>
+        <Route path='/dashboard' element={<Dashboard />}></Route>
+        <Route path='/generar_facturas' element={<GenerarFacturas />}></Route>
       </Routes>
-      <Slider />
-      <TarjetasMarcasVehiculos />
-      <SeccionProductos />
-      <FormasEnvio />
-      <PagaDesdeCasa />
-      <SeccionComentarios />
-      <Footer />
     </>
   )
 }
 
-export default App
+export default App;
