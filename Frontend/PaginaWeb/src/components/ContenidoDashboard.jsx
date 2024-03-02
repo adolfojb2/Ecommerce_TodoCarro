@@ -9,7 +9,7 @@ import { FaArrowLeft } from "react-icons/fa";
 import '../styles/contenidodashboard.css';
 import { Link } from 'react-router-dom';
 
-function ContenidoDashboard() {
+const ContenidoDashboard = () => {
   return (
     <main className='seccion-panel-lateral-tarjetas-seguimiento-de-compras'>
       <div className='todo-el-contenido-de-la-dashboard'>
