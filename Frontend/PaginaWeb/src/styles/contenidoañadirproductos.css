@@ -1,0 +1,259 @@
+
+/*  A Ñ A D I R - P R O D U C T O S  */
+
+.seccion-completa-añadir-productos-para-la-dahsboard {
+    border: none;
+}
+
+.todo-contenido-dashboard-añadir-productos {
+    display: flex;
+}
+
+/* P A N E L - L A T E R A L  */
+
+.seccion-panel-lateral-añprd {
+    width: 20%;
+}
+
+.todo-contenido-panel-lateral-añprd {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-top: 1px solid white;
+    border-bottom: none;
+    border-right: 1px solid white;
+}
+
+.primera-seccion-panel-lateral-añprd {
+    width: 100%;
+    height: 180px;
+    background-color: #08083e;
+}
+
+.contenedor-logo-panel-lateral-añprd {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #08083e;
+    width: 100%;
+}
+
+.estilo-logo-panel-lateral-añprd {
+    width: 90px;
+    height: 70px;
+}
+
+.titulo-panel-lateral-logo-añprd {
+    font-family: "Abhaya Libre", serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.contenedor-parte-2-dashboard-añprd {
+    background-color: #01060D;
+    width: 100%;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-lateral-interior-titulos-añprd {
+    margin-bottom: 100px;
+    background-color: #01060D;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-self: start; 
+}
+
+.raya-panel-lateral-añprd {
+    margin-top: 0px;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+.contenedor-panel-lateral-interior-y-icono-añprd {
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.icono-parte-lateral-interior-añprd {
+    color: orange;
+}
+
+.titulo-panel-lateral-interior-añprd {
+    color: white;
+    font-family: "Abhaya Libre", serif;
+    font-size: 20px;
+}
+
+.contenedor-parte-inferior-panel-lateral-añprd {
+    border: transparent;
+    background: rgb(8, 8, 62);
+    margin-top: 10px;
+    width: 85%;
+    text-align: center;
+    padding: 10px;
+}
+
+.parrafo-parte-inferior-panel-lateral-añprd {
+    color: white;
+    font-family: "Abhaya Libre", serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.parrafo-parte-inferior-panel-lateral-2-añprd {
+    margin-top: 20px;
+    color: white;
+    font-family: "Abhaya Libre", serif;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.icono-flecha-verde-panel-interior-dashboard-añprd {
+    color: green;
+}
+
+/* F O R M U L A R I O */
+
+.seccion-añadir-productos-para-la-dahsboard {
+    border: 2px solid yellow;
+}
+
+.seccion-atencion-cliente {
+    background-color: #01060D;
+    width: 80%;
+    border-top: 1px solid white;
+}
+
+.contenedor-añadir-productos {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 800px;
+}
+
+.titulo-seccion-atencion-cliente {
+    position: relative;
+    color: rgb(109, 163, 214);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Abhaya Libre", serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.contenedor-formulario {
+    background: white;
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+}
+
+.cuadros-formulario:hover {
+    border: 1px solid rgb(109, 163, 214);
+}
+
+.cuadros-formulario {
+    background: #EEEDEB;
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.caja-input-atencion-cliente {
+    border-radius: 0px;
+    color: rgba(0, 0, 0, 0.75);
+    background: #EEEDEB;
+}
+
+.caja-input-atencion-cliente:hover {
+    border: none;
+}
+
+.caja-input-atencion-cliente::placeholder {
+    color: gray;
+}
+
+.imagen-formulario-atencioncliente {
+    width: 20px;
+    height: 20px;
+}
+
+.contenedor-boton-atencion-cliente {
+    display: flex;
+    justify-content: center;
+}
+
+.boton-enviar-peticion {
+    background: rgb(109, 163, 214);
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Abhaya Libre", serif;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 35px;
+    margin: 30px 10px 30px 10px;
+}
+
+.boton-enviar-peticion:hover {
+    background: rgb(255, 0, 255);
+}
+
+.titulo-marca-auto-favorito {
+    color: gray;
+    font-family: "Abhaya Libre", serif;
+    font-size: 20px;
+}
+
+.titulo-imagen-cargada {
+    color: black;
+    font-family: "Abhaya Libre", serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.input-cargar-fotoproducto {
+    color: black;
+    font-family: "Abhaya Libre", serif;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 0px;
+    padding-bottom: 30px;
+    margin: 10px 30px 10px 30px;
+}
+
+.contenedor-imagen-cargada-producto {
+    margin-top: 20px;
+}
+
+.input-cargar-fotoproducto:hover {
+    border: none;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/panel_lateral.css';
+import '../styles/contenidodashboard.css';
 import { IoHomeSharp } from "react-icons/io5";
 import { FaFileInvoiceDollar } from "react-icons/fa6";
 import { FaBoxesPacking } from "react-icons/fa6";

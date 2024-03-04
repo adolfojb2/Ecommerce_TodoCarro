@@ -6,6 +6,8 @@ import AtencionCliente from './pages/AtencionCliente';
 import InicioRegistro from './pages/InicioRegistro';
 import Dashboard from './pages/Dashboard';
 import GenerarFacturas from './pages/GenerarFacturas';
+import AñadirProductos from './pages/AñadirProductos';
+import AnalyticsData from './pages/AnalyticsData';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path='/atencion_cliente' element={<AtencionCliente />}></Route>
         <Route path='/dashboard' element={<Dashboard />}></Route>
         <Route path='/generar_facturas' element={<GenerarFacturas />}></Route>
+        <Route path='/añadir_productos' element={<AñadirProductos />}></Route>
+        <Route path='/analytics_ecommerce' element={<AnalyticsData />}></Route>
       </Routes>
     </>
   )

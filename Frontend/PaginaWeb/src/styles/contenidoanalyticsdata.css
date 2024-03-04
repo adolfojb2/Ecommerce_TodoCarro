@@ -1,0 +1,153 @@
+
+/*  P A N E L - L A T E R A L  */
+
+.todo-el-contenido-de-la-dashboard {
+    display: flex;
+}
+
+.seccion-panel-lateral-tarjetas-seguimiento-de-compras-graficas {
+    height: 820px;
+    /*background-color: #01060D;*/
+}
+
+.todo-contenido-panel-lateral {
+    width: 20%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid white;
+}
+
+.primera-seccion-panel-lateral {
+    width: 100%;
+    height: 170px;
+    background-color: #08083e;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.contenedor-logo-panel-lateral {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #08083e;
+    width: 100%;
+}
+
+.estilo-logo-panel-lateral {
+    width: 90px;
+    height: 70px;
+}
+
+.titulo-panel-lateral-logo {
+    font-family: "Abhaya Libre", serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.contenedor-parte-2-dashboard {
+    background-color: #01060D;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-lateral-interior-titulos {
+    margin-bottom: 100px;
+}
+
+.raya-panel-lateral {
+    margin-top: 0px;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+.contenedor-panel-lateral-interior-y-icono {
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.icono-parte-lateral-interior {
+    color: orange;
+}
+
+.titulo-panel-lateral-interior {
+    color: white;
+    font-family: "Abhaya Libre", serif;
+    font-size: 20px;
+}
+
+.contenedor-parte-inferior-panel-lateral {
+    border: transparent;
+    background: rgb(8, 8, 62);
+    margin-top: 10px;
+    width: 85%;
+    text-align: center;
+    padding: 10px;
+}
+
+.parrafo-parte-inferior-panel-lateral {
+    color: white;
+    font-family: "Abhaya Libre", serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.parrafo-parte-inferior-panel-lateral-2 {
+    margin-top: 20px;
+    color: white;
+    font-family: "Abhaya Libre", serif;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.icono-flecha-verde-panel-interior-dashboard {
+    color: green;
+}
+
+/*  G R A F I C O S - D A S H B O A R D  */
+
+.seccion-generar-graficas-dashboard {
+    width: 50%;
+    margin-left: 200px;
+    background-color: white;
+}
+
+.contenedor-todo-contenido-generar-graficas {
+    margin-top: 30px;
+}
+
+.contenedores-para-las-graficas {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.titulo-generar-graficas-dashboard {
+    color: white;
+    font-family: "Abhaya Libre", serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid blue;
+    background-color: #08083e;
+    padding: 10px 40px 25px 40px;
+}
+
+.graficas-individuales {
+    border: 2px solid gray;
+    margin-top: 20px;
+}

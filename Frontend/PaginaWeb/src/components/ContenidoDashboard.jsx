@@ -59,7 +59,7 @@ function ContenidoDashboard() {
                 <h3 className='titulo-ingresos-tarjeta'>Ingresos por día</h3>
                 <div className='contenedor-precio-ingreso-dashboard'>
                   <FaDollarSign className='estilos-signo-peso-dashboard-1'/>
-                  <h1 className='valor-ingreso-dashboard'> 1.000.000 <FaDollarSign className='estilos-signo-peso-dashboard-2' /></h1>
+                  <h1 className='valor-ingreso-dashboard'> 1.000.000 <FaDollarSign className='estilos-signo-peso-dashboard' /></h1>
                 </div>
                 <h3 className='descripcion-año-dashboard'>Año 2020</h3>
                 <div className='contenedor-olas-tarjeta'>
@@ -70,7 +70,7 @@ function ContenidoDashboard() {
                 <h3 className='titulo-ingresos-tarjeta'>Ingresos por mes</h3>
                 <div className='contenedor-precio-ingreso-dashboard'>
                   <FaDollarSign className='estilos-signo-peso-dashboard-1'/>
-                  <h1 className='valor-ingreso-dashboard'> 20.000.000 <FaDollarSign className='estilos-signo-peso-dashboard-2' /></h1>
+                  <h1 className='valor-ingreso-dashboard'> 20.000.000 <FaDollarSign className='estilos-signo-peso-dashboard' /></h1>
                 </div>
                 <h3 className='descripcion-año-dashboard'>Año 2020</h3>
                 <div className='contenedor-olas-tarjeta'>
@@ -81,7 +81,7 @@ function ContenidoDashboard() {
                 <h3 className='titulo-ingresos-tarjeta'>Ingresos por año</h3>
                 <div className='contenedor-precio-ingreso-dashboard'>
                   <FaDollarSign className='estilos-signo-peso-dashboard-1'/>
-                  <h1 className='valor-ingreso-dashboard'> 350.000.000 <FaDollarSign className='estilos-signo-peso-dashboard-2' /></h1>
+                  <h1 className='valor-ingreso-dashboard'> 350.000.000 <FaDollarSign className='estilos-signo-peso-dashboard' /></h1>
                 </div>
                 <h3 className='descripcion-año-dashboard'>Año 2020</h3>
                 <div className='contenedor-olas-tarjeta'>

@@ -187,7 +187,7 @@
 
 .estilos-signo-peso-dashboard-1 {
     font-size: 60px;
-    color: rgb(225, 204, 204);
+    color: white;
 }
 
 .estilos-signo-peso-dashboard-2 {
@@ -231,7 +231,7 @@
 .titulo-generar-facturas-pdf {
     color: black;
     font-family: "Abhaya Libre", serif;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
     padding: 20px 0px 20px 30px;
@@ -246,7 +246,11 @@
     padding: 20px 0px 20px 30px;
     border-bottom: 2px solid gray;
     text-transform: uppercase;
-    font-size: 15px;
+}
+
+.titulo-datos-facturas {
+    font-size: 17px;
+    font-family: "Abhaya Libre", serif;
 }
 
 .contenedor-descripcion-columnas-datos-facturas {
@@ -275,6 +279,10 @@
     font-size: 16px;
     font-family: "Abhaya Libre", serif;
     cursor: pointer;
+}
+
+.boton-factura:hover {
+    background: rgb(217, 151, 27);
 }
 
 .descripcion-datos-facturas {
