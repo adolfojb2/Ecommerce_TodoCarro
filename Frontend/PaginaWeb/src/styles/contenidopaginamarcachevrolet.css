@@ -1,0 +1,191 @@
+
+/* P R O D U C T O S - M A R C A */
+
+.seccion-general-pagina-marca-chevrolet {
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #fffffc 100%);
+}
+
+.contenido-seccion-pagina-marca-nissan {
+    border: transparent;
+}
+
+.titulo-todos-los-repuestos-chevrolet {
+    position: relative;
+    font-family: "Abhaya Libre", serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    top: 50px;
+    color: blue;
+}
+
+.contenedor-modelos-marcas-vehiculos-chevrolet {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    margin-top: 80px;
+}
+
+.contenedor-modelo-marca-chevrolet {
+    border: 2px solid rgba(128, 128, 128, 0.2);
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contenedor-modelo-marca-chevrolet:hover {
+    background-color: #ffe6e663;
+}
+
+.titulo-modelo-marca-vehiculo-chevrolet {
+    text-align: center;
+    font-family: "Abhaya Libre", serif;
+    font-size: 22px;
+}
+
+.foto-modelo-marca-carro-chevrolet {
+    width: 160px;
+    height: 120px;
+    filter: drop-shadow(
+        0px 0px 10px rgb(0, 0, 255)
+    );
+}
+
+.foto-modelo-marca-carro-chevrolet-tahoe {
+    width: 140px;
+    height: 100px;
+    filter: drop-shadow(
+        0px 0px 10px rgb(0, 0, 255)
+    );
+}
+
+.contenedor-botones-filtros-carros {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.estilos-boton-filtros-carros-1 {
+    background-color: rgb(255, 0, 200);
+    font-size: 20px;
+    font-family: "Abhaya Libre", serif;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.estilos-boton-filtros-carros-2 {
+    background-color: blue;
+    font-size: 20px;
+    font-family: "Abhaya Libre", serif;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.estilos-boton-filtros-carros-3 {
+    background-color: orangered;
+    font-size: 20px;
+    font-family: "Abhaya Libre", serif;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.estilos-boton-filtros-carros-4 {
+    background-color: firebrick;
+    font-size: 20px;
+    font-family: "Abhaya Libre", serif;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.estilos-boton-filtros-carros-5 {
+    background-color: goldenrod;
+    font-size: 20px;
+    font-family: "Abhaya Libre", serif;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.estilos-boton-filtros-carros-6 {
+    background-color: tomato;
+    font-size: 20px;
+    font-family: "Abhaya Libre", serif;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.estilos-boton-filtros-carros-7 {
+    background-color: yellowgreen;
+    font-size: 20px;
+    font-family: "Abhaya Libre", serif;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.estilos-boton-filtros-carros-8 {
+    background-color: blueviolet;
+    font-size: 20px;
+    font-family: "Abhaya Libre", serif;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.estilos-boton-filtros-carros-1:hover {
+    background-color: rgba(255, 0, 200, 0.904);
+}
+
+.estilos-boton-filtros-carros-2:hover {
+    background-color: rgba(0, 0, 255, 0.9);
+}
+
+.estilos-boton-filtros-carros-3:hover {
+    background-color: rgba(255, 68, 0, 0.9);
+}
+
+.estilos-boton-filtros-carros-4:hover {
+    background-color: rgba(178, 34, 34, 0.9);
+}
+
+.estilos-boton-filtros-carros-5:hover {
+    background-color: rgba(218, 165, 32, 0.9);
+}
+
+.estilos-boton-filtros-carros-6:hover {
+    background-color: rgba(255, 99, 71, 0.9);
+}
+
+.estilos-boton-filtros-carros-7:hover {
+    background-color: rgba(153, 205, 50, 0.9);
+}
+
+.estilos-boton-filtros-carros-8:hover {
+    background-color: rgba(137, 43, 226, 0.9);
+}

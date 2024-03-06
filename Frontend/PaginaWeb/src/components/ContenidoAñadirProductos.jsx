@@ -48,7 +48,7 @@ function ContenidoAñadirProductos() {
             </div>
         </section>
 
-        <section className='seccion-atencion-cliente'>
+        <section className='seccion-atencion-cliente-añprd'>
           <div className='contenedor-añadir-productos'>
             <form action="" method="" enctype="multipart/form-data" className='contenedor-formulario'>
               <h1 className='titulo-seccion-atencion-cliente'>Añada sus productos como administrador</h1>

@@ -8,6 +8,9 @@ import Dashboard from './pages/Dashboard';
 import GenerarFacturas from './pages/GenerarFacturas';
 import AñadirProductos from './pages/AñadirProductos';
 import AnalyticsData from './pages/AnalyticsData';
+import ProductosToyota from './pages/ProductosToyota';
+import ProductosNissan from './pages/ProductosNissan';
+import ProductosChevrolet from './pages/ProductosChevrolet';
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
         <Route path='/generar_facturas' element={<GenerarFacturas />}></Route>
         <Route path='/añadir_productos' element={<AñadirProductos />}></Route>
         <Route path='/analytics_ecommerce' element={<AnalyticsData />}></Route>
+        <Route path='/productos_toyota' element={<ProductosToyota />}></Route>
+        <Route path='/productos_nissan' element={<ProductosNissan />}></Route>
+        <Route path='/productos_chevrolet' element={<ProductosChevrolet />}></Route>
       </Routes>
     </>
   )
