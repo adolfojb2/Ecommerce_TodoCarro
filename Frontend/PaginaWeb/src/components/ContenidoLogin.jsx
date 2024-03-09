@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../stylespages/loginsignup.css';
+import '../styles/loginsignup.css';
 
 function ContenidoLogin() {
 

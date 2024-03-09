@@ -6,6 +6,7 @@
     background-color: #01060D;
     border-top: 2px solid white;
     height: 650px;
+    user-select: none;
 }
 
 .titulo-y-guion {

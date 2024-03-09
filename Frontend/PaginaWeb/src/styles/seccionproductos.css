@@ -5,6 +5,14 @@
     background-color: #01060D;
     border-top: 2px solid white;
     height: 2650px;
+    user-select: none;
+}
+
+.seccion-productos-toyota {
+    background-color: #01060D;
+    border-top: 2px solid white;
+    height: 2330px;
+    user-select: none;
 }
 
 .titulo-productos {

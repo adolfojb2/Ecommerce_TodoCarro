@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylespages/contenidoatencioncliente.css';
+import '../styles/contenidoatencioncliente.css';
 
 function ContenidoAtencionCliente() {
   return (

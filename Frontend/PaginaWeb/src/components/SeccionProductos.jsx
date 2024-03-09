@@ -3,6 +3,7 @@ import '../styles/seccionproductos.css';
 import { IoEyeSharp } from "react-icons/io5";
 import { IoCartSharp } from "react-icons/io5";
 import { SiCashapp } from "react-icons/si";
+import { Link } from 'react-router-dom';
 
 function SeccionProductos() {
   return (
@@ -163,10 +164,10 @@ function SeccionProductos() {
             <div className='contenedor-informacion'><IoEyeSharp className='eye' /> <span className='simbolo-precio-y-precio'><SiCashapp className='simbolo-precio'/><span className='precio'>5000</span></span> <IoCartSharp className='cart'/></div>
           </div>
         </div>
-        <button className='boton-vermas'>Ver más productos</button>
+        <Link to='/todos_productos'><button className='boton-vermas'>Ver más productos</button></Link>
       </div>
     </section>
   )
 }
 
-export default SeccionProductos
+export default SeccionProductos;

@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ContenidoPaginaMarcaNissan from '../components/ContenidoPaginaMarcaNissan';
 import SeccionProductosNissan from '../components/SeccionProductosNissan';
+import HeaderSticky from '../components/HeaderSticky';
 
 function ProductosToyota() {
   return (
     <>
-      <Header />
+      <HeaderSticky />
       <ContenidoPaginaMarcaNissan />
       <SeccionProductosNissan />
       <Footer />

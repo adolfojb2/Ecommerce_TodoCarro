@@ -14,7 +14,7 @@ function Header() {
     <header className='abhaya-libre-extrabold'>
         {/* Contenedor Header 1 */}
         <div className='contenedor-header-1'>
-          <a href='#'><img src='LogoEcommerce.jpg' className='estilos-logo' alt='logo'/></a>
+          <Link to='/'><img src='LogoEcommerce.jpg' className='estilos-logo' alt='logo'/></Link>
           <div className="contenedor-barra-buscadora">
             <BarraBuscadoraProductos />
           </div>
@@ -44,4 +44,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylespages/contenidoblog.css';
+import '../styles/contenidoblog.css';
 import { Link } from 'react-router-dom';
 
 // React Router DOM (Window.open);

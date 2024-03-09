@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/contenidopaginamarcanissan.css';
 
-function ContenidoPaginaMarcaToyota() {
+function ContenidoPaginaMarcaNissan() {
   return (
     <section className='seccion-general-pagina-marca-nissan'>
       <div className='contenido-seccion-pagina-marca-nissan'>
@@ -34,4 +34,4 @@ function ContenidoPaginaMarcaToyota() {
   )
 }
 
-export default ContenidoPaginaMarcaToyota;
+export default ContenidoPaginaMarcaNissan;

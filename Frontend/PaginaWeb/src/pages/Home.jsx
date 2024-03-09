@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/Header';
 import Slider from '../components/Slider';
 import TarjetasMarcasVehiculos from '../components/TarjetasMarcasVehiculos';
 import SeccionProductos from '../components/SeccionProductos';
@@ -7,13 +6,16 @@ import FormasEnvio from '../components/FormasEnvio';
 import PagaDesdeCasa from '../components/PagaDesdeCasa';
 import SeccionComentarios from '../components/SeccionComentarios';
 import Footer from '../components/Footer';
+import HeaderSticky from '../components/HeaderSticky';
+import SeccionNuestrosModelos from '../components/SeccionNuestrosModelos';
 
 function Home() {
   return (
     <>
-        <Header />
+        <HeaderSticky />
         <Slider />
         <TarjetasMarcasVehiculos />
+        <SeccionNuestrosModelos />
         <SeccionProductos />
         <FormasEnvio />
         <PagaDesdeCasa />

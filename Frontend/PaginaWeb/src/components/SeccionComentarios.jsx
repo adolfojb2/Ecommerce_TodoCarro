@@ -5,7 +5,7 @@ import { FaChevronRight } from "react-icons/fa6";
 import { FaChevronLeft } from "react-icons/fa6";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
-import personas from '../data';
+import personas from '../InformacionComentariosPersonas';
 
 function SeccionComentarios() {
   const[index, setIndex] = useState(0); // index = 0;
@@ -16,7 +16,7 @@ function SeccionComentarios() {
       return 0;
     }
     if(numero < 0) {
-      personas.length -1;
+      return personas.length -1;
     }
     return numero;
   };

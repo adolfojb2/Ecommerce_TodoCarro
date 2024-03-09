@@ -6,7 +6,7 @@ import { SiCashapp } from "react-icons/si";
 
 function SeccionProductosToyota() {
   return (
-    <section className='seccion-productos'>
+    <section className='seccion-productos-toyota'>
       <div className='titulo-productos'>!Encuentre aquí su repuesto Toyota!</div>
       <div className='contenedor-principal-productos'>
         <div className='contenedor-interior-productos'>
@@ -115,28 +115,6 @@ function SeccionProductosToyota() {
           </div>
           <div className='contenedor-foto'>
             <a href='#'><img src='RefrigeracionRadiador.webp' className='estilo-foto-producto' alt='Foto del Producto' /></a>
-            <div className='nombre-repuesto'>Repuesto # 1</div>
-            <div className='contenedor-informacion'><IoEyeSharp className='eye' /> <span className='simbolo-precio-y-precio'><SiCashapp className='simbolo-precio'/><span className='precio'>5000</span></span> <IoCartSharp className='cart'/></div>
-          </div>
-        </div>
-        <div className='contenedor-interior-productos'>
-          <div className='contenedor-foto'>
-            <a href='#'><img src='RefrigeracionFiltroAire2.png' className='estilo-foto-producto' alt='Foto del Producto' /></a>
-            <div className='nombre-repuesto'>Repuesto # 1</div>
-            <div className='contenedor-informacion'><IoEyeSharp className='eye' /> <span className='simbolo-precio-y-precio'><SiCashapp className='simbolo-precio'/><span className='precio'>5000</span></span> <IoCartSharp className='cart'/></div>
-          </div>
-          <div className='contenedor-foto'>
-            <a href='#'><img src='LubricacionPeraPresionAceita.webp' className='estilo-foto-producto' alt='Foto del Producto' /></a>
-            <div className='nombre-repuesto'>Repuesto # 1</div>
-            <div className='contenedor-informacion'><IoEyeSharp className='eye' /> <span className='simbolo-precio-y-precio'><SiCashapp className='simbolo-precio'/><span className='precio'>5000</span></span> <IoCartSharp className='cart'/></div>
-          </div>
-          <div className='contenedor-foto'>
-            <a href='#'><img src='LubricacionBombaHidraulica.webp' className='estilo-foto-producto' alt='Foto del Producto' /></a>
-            <div className='nombre-repuesto'>Repuesto # 1</div>
-            <div className='contenedor-informacion'><IoEyeSharp className='eye' /> <span className='simbolo-precio-y-precio'><SiCashapp className='simbolo-precio'/><span className='precio'>5000</span></span> <IoCartSharp className='cart'/></div>
-          </div>
-          <div className='contenedor-foto'>
-            <a href='#'><img src='TransmisionBombaEmbrage.webp' className='estilo-foto-producto' alt='Foto del Producto' /></a>
             <div className='nombre-repuesto'>Repuesto # 1</div>
             <div className='contenedor-informacion'><IoEyeSharp className='eye' /> <span className='simbolo-precio-y-precio'><SiCashapp className='simbolo-precio'/><span className='precio'>5000</span></span> <IoCartSharp className='cart'/></div>
           </div>

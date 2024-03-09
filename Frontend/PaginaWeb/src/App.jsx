@@ -11,6 +11,10 @@ import AnalyticsData from './pages/AnalyticsData';
 import ProductosToyota from './pages/ProductosToyota';
 import ProductosNissan from './pages/ProductosNissan';
 import ProductosChevrolet from './pages/ProductosChevrolet';
+import ProductosMazda from './pages/ProductosMazda';
+import ProductosHyundai from './pages/ProductosHyundai';
+import ProductosKia from './pages/ProductosKia';
+import TodosProductosTodasMarcas from './pages/TodosProductosTodasMarcas';
 
 function App() {
   return (
@@ -27,6 +31,10 @@ function App() {
         <Route path='/productos_toyota' element={<ProductosToyota />}></Route>
         <Route path='/productos_nissan' element={<ProductosNissan />}></Route>
         <Route path='/productos_chevrolet' element={<ProductosChevrolet />}></Route>
+        <Route path='/productos_mazda' element={<ProductosMazda />}></Route>
+        <Route path='/productos_hyundai' element={<ProductosHyundai />}></Route>
+        <Route path='/productos_kia' element={<ProductosKia />}></Route>
+        <Route path='/todos_productos' element={<TodosProductosTodasMarcas />}></Route>
       </Routes>
     </>
   )

@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ContenidoPaginaMarcaToyota from '../components/ContenidoPaginaMarcaToyota';
 import SeccionProductosToyota from '../components/SeccionProductosToyota';
+import HeaderSticky from '../components/HeaderSticky';
 
 function ProductosToyota() {
   return (
     <>
-      <Header />
+      <HeaderSticky />
       <ContenidoPaginaMarcaToyota />
       <SeccionProductosToyota />
       <Footer />

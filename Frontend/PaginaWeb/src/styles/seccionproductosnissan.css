@@ -4,6 +4,7 @@
     background-color: #01060D;
     border-top: 2px solid white;
     height: 1950px;
+    user-select: none;
 }
 
 .titulo-productos {

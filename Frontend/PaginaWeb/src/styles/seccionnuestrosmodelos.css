@@ -1,0 +1,47 @@
+
+/* N U E S T R O S - M O D E L O S */
+
+.seccion-nuestros-modelos-carros {
+    background-color: #01060D;
+    user-select: none;
+    border-top: 2px solid white;
+    height: 400px;
+    overflow: hidden;
+}
+
+.titulo-seccion-nuestros-modelos-carros {
+    position: relative;
+    font-family: "Abhaya Libre", serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.titulo-modelo-marca {
+    position: relative;
+    font-family: "Abhaya Libre", serif;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    border-bottom: 2px solid blue;
+}
+
+.modelo-carro {
+    margin-top: 50px;
+    padding: 10px 50px 10px 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto-modelo-carro {
+    margin: auto;
+    margin-top: 20px;
+    width: 190px;
+    height: 130px;
+    filter: drop-shadow(
+        8px 8px 5px #023056
+    );
+}

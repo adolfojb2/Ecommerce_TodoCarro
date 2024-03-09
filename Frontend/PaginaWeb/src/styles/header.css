@@ -11,6 +11,17 @@
     font-style: normal;
 }
 
+.posicion-sticky {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    z-index: 10;
+    user-select: none;
+}
+
 .contenedor-header-1 {
     background-color: #01060D;
     display: flex;

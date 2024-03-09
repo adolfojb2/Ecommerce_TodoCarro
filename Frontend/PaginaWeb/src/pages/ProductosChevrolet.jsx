@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ContenidoPaginaMarcaChevrolet from '../components/ContenidoPaginaMarcaChevrolet';
 import SeccionProductosChevrolet from '../components/SeccionProductosChevrolet';
+import HeaderSticky from '../components/HeaderSticky';
 
 function ProductosChevrolet() {
   return (
     <>
-      <Header />
+      <HeaderSticky />
       <ContenidoPaginaMarcaChevrolet />
       <SeccionProductosChevrolet />
       <Footer />
